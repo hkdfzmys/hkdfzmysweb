@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <title>庆祝!河科大漫研社Blog搭建成功! | 漫研社 Blog</title>
+    <meta name="author" content="漫研社" />
+    <meta name="description" content="记录漫研社日常|通知|活动" />
+    <meta name="keywords" content="" />
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link rel="icon" href="/images/avatar.jpg" />
+    <link rel="preconnect" href="https://s4.zstatic.net" />
+<script src="https://s4.zstatic.net/ajax/libs/vue/3.3.7/vue.global.prod.min.js"></script>
+<link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+<link rel="preconnect" href="https://fonts.googleapis.cn" />
+<link rel="preconnect" href="https://fonts.gstatic.cn" crossorigin />
+<link
+    rel="stylesheet"
+    href="https://fonts.googleapis.cn/css2?family=Fira+Code:wght@400;500;600;700&family=Lexend:wght@400;500;600;700;800;900&family=Noto+Sans+SC:wght@400;500;600;700;800;900&display=swap"
+/>
+<script> const mixins = {}; </script>
+
+<script src="https://polyfill.alicdn.com/v3/polyfill.min.js?features=default"></script>
+
+
+<script src="https://s4.zstatic.net/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script src="https://s4.zstatic.net/ajax/libs/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js"></script>
+<link
+    rel="stylesheet"
+    href="https://s4.zstatic.net/ajax/libs/highlight.js/11.9.0/styles/github.min.css"
+/>
+<script src="/js/lib/highlight.js"></script>
+
+
+
+<script src="/js/lib/preview.js"></script>
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.css" />
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+<body>
+    <div id="layout">
+        <transition name="fade">
+            <div id="loading" v-show="loading">
+                <div id="loading-circle">
+                    <h2>LOADING</h2>
+                    <p>加载过慢请开启缓存 浏览器默认开启</p>
+                    <img src="/images/loading.gif" />
+                </div>
+            </div>
+        </transition>
+        <div id="menu" :class="{ hidden: hiddenMenu, 'menu-color': menuColor}">
+    <nav id="desktop-menu">
+        <a class="title" href="/">
+            <span>漫研社 BLOG</span>
+        </a>
+        
+        <a target="_blank" rel="noopener" href="https://hkdfzmys.github.io/">
+            <i class="fa-solid fa-home fa-fw"></i>
+            <span>&ensp;官网</span>
+        </a>
+        
+        <a href="/">
+            <i class="fa-solid fa-house fa-fw"></i>
+            <span>&ensp;首页</span>
+        </a>
+        
+        <a href="/about">
+            <i class="fa-solid fa-id-card fa-fw"></i>
+            <span>&ensp;关于</span>
+        </a>
+        
+    </nav>
+    <nav id="mobile-menu">
+        <div class="title" @click="showMenuItems = !showMenuItems">
+            <i class="fa-solid fa-bars fa-fw"></i>
+            <span>&emsp;漫研社 BLOG</span>
+        </div>
+        <transition name="slide">
+            <div class="items" v-show="showMenuItems">
+                
+                <a target="_blank" rel="noopener" href="https://hkdfzmys.github.io/">
+                    <div class="item">
+                        <div style="min-width: 20px; max-width: 50px; width: 10%">
+                            <i class="fa-solid fa-home fa-fw"></i>
+                        </div>
+                        <div style="min-width: 100px; max-width: 150%; width: 20%">官网</div>
+                    </div>
+                </a>
+                
+                <a href="/">
+                    <div class="item">
+                        <div style="min-width: 20px; max-width: 50px; width: 10%">
+                            <i class="fa-solid fa-house fa-fw"></i>
+                        </div>
+                        <div style="min-width: 100px; max-width: 150%; width: 20%">首页</div>
+                    </div>
+                </a>
+                
+                <a href="/about">
+                    <div class="item">
+                        <div style="min-width: 20px; max-width: 50px; width: 10%">
+                            <i class="fa-solid fa-id-card fa-fw"></i>
+                        </div>
+                        <div style="min-width: 100px; max-width: 150%; width: 20%">关于</div>
+                    </div>
+                </a>
+                
+            </div>
+        </transition>
+    </nav>
+</div>
+<transition name="fade">
+    <div id="menu-curtain" @click="showMenuItems = !showMenuItems" v-show="showMenuItems"></div>
+</transition>
+
+        <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
+            <div class="article">
+    <div>
+        <h1>庆祝!河科大漫研社Blog搭建成功!</h1>
+    </div>
+    <div class="info">
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2025/1/19
+        </span>
+        
+        
+    </div>
+    
+    <div class="content" v-pre>
+        <h1 id="庆祝漫研社Blog搭建成功-🎉"><a href="#庆祝漫研社Blog搭建成功-🎉" class="headerlink" title="庆祝漫研社Blog搭建成功 🎉"></a>庆祝漫研社Blog搭建成功 🎉</h1><p>亲爱的漫画爱好者们，</p>
+<p>我们满怀激动和喜悦地宣布，河科大附中漫研社的博客正式搭建成功啦！在这个全新的平台上，我们将在此分享我们的热情、创作与研究，期待与大家共同探索漫画的世界。</p>
+<h2 id="感谢大家的支持！"><a href="#感谢大家的支持！" class="headerlink" title="感谢大家的支持！"></a>感谢大家的支持！</h2><p>这一切都离不开每一位社团成员的努力与贡献。漫研社的博客将成为我们交流、学习与成长的空间，让我们能够更深入地探讨漫画文化。</p>
+<h2 id="博客内容预告"><a href="#博客内容预告" class="headerlink" title="博客内容预告"></a>博客内容预告</h2><p>在接下来的日子里，我们将定期发布以下内容：</p>
+<ul>
+<li><strong>漫画作品解析</strong>：对于经典与新兴漫画的深入分析与评论。</li>
+<li><strong>创作经验分享</strong>：社员们将分享他们的创作过程与心得。</li>
+<li><strong>行业动态</strong>：最新的漫画资讯、活动和展会信息。</li>
+<li><strong>社群活动记录</strong>：回顾我们社团的活动和精彩时刻。</li>
+<li><strong>漫研社大事纪|通知</strong></li>
+</ul>
+<h2 id="投稿"><a href="#投稿" class="headerlink" title="投稿"></a>投稿</h2><p>我校漫研社成员可私信网站开发者进行投稿<br>如果你不是我校学生，但也想发表见解文章等<br>可以致电(电子邮箱)：<a href="mailto:hkdmys@outlook.com">hkdmys@outlook.com</a></p>
+<h2 id="感谢与期待"><a href="#感谢与期待" class="headerlink" title="感谢与期待"></a>感谢与期待</h2><p>再次感谢大家的支持与帮助，一起期待漫研社博客能为大家带来更多的灵感与乐趣。让我们携手共进，在这条漫画之路上不断探索和成长！</p>
+<p><strong>漫研社团队</strong><br><code>2025年1月19日</code><br><code>河科大附中漫研社 宣</code></p>
+
+    </div>
+    
+    
+    
+    
+    
+    
+    
+</div>
+
+            <footer id="footer">
+    <div id="footer-wrap">
+        <div>
+            &copy;
+            2022 - 2025 漫研社 Blog
+            <span id="footer-icon">
+                <i class="fa-solid fa-font-awesome fa-fw"></i>
+            </span>
+            &commat;漫研社
+        </div>
+        <div>
+            Based on the <a target="_blank" rel="noopener" href="https://hexo.io">Hexo Engine</a> &amp;
+            <a target="_blank" rel="noopener" href="https://github.com/theme-particlex/hexo-theme-particlex">ParticleX Theme</a>
+        </div>
+        
+    </div>
+</footer>
+
+        </div>
+        
+        <transition name="fade">
+            <div id="preview" ref="preview" v-show="previewShow">
+                <img id="preview-content" ref="previewContent" />
+            </div>
+        </transition>
+        
+    </div>
+    <script src="/js/main.js"></script>
+    
+    
+
+
+
+
+    
+</body>
+</html>
